@@ -14,29 +14,35 @@
 
 <body class="p-2 m-0 border-0">
 
-    <nav id="navbar-example2" class="navbar fixed-top
-    justify-content-center navbar-light bg-light px-3">
+    <nav id="navbar-example2" class="p-2 navbar fixed-top
+    justify-content-center navbar-light bg-light">
         <a class="navbar-brand" href="#">Home</a>
         <ul class="nav nav-pills">
             <li class="nav-item">
-                <a class="nav-link" href="#technicalskills">Technicalskills</a>
+                <a class="nav-link text-dark" href="#technicalskills">Technicalskills</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#frameworks">FrameWorks</a>
+                <a class="nav-link text-dark" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#education">Education</a>
+                <a class="nav-link text-dark" href="#experience">Experience</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#education">Education</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
+                <a class="nav-link text-dark" href="#contact">Contact</a>
             </li>
         </ul>
     </nav>
-    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example"
-        tabindex="0">
-        <main class="container">
+    <main class="container">
+        <div class="b-example-divider"></div>
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example"
+            tabindex="0">
+
             <!--  -->
-            <div class="shadow-lg px-4 py-5 my-5 text-center  rounded">
+            <div class="shadow-lg px-4 py-3 my-5 text-center  rounded">
                 <img class="d-block mx-auto mb-4 rounded-circle" src="./assets//profile.jpg" alt="" width="150"
                     height="157">
                 <h1 class="display-5 fw-bold">Swaroop V</h1>
@@ -54,8 +60,7 @@
             </div>
             <!---->
             <div class="container px-4 py-5" id="featured-3">
-                <a name="technicalskills" id="technicalskills"></a>
-                <h2 class="pb-2 border-bottom">Techinal Skills</h2>
+                <h2 class="pb-2 border-bottom"> <a name="technicalskills" id="technicalskills"></a>Techinal Skills</h2>
 
                 <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
                     <div class="feature col">
@@ -74,7 +79,8 @@
                     <div class="feature col">
                         <div class="feature-icon  bg-gradient">
 
-                            <img src="./assets/icons/Typescript_logo_2020.svg.png" width="50" alt='not found'>
+                            <img src="./assets/icons/Typescript_logo_2020.svg.png" width="50" height="50"
+                                alt='not found'>
                         </div>
                         <h2>Type Script</h2>
                         <div class="progress">
@@ -82,6 +88,19 @@
                                 aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
+                    <!-- Node js -->
+                    <div class="feature col">
+                        <div class="feature-icon  bg-gradient">
+
+                            <img src="./assets/icons/node.png" width="80" height="50" alt='not found'>
+                        </div>
+                        <h2>Node js</h2>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <!-- Node js -->
                     <div class="feature col">
                         <div class="feature-icon  bg-gradient">
                             <img src="./assets/icons/React.svg.png" width="50" alt='not found'>
@@ -92,26 +111,9 @@
                             <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="25"
                                 aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
-
                     </div>
-
-                    <!-- Node js -->
                     <div class="feature col">
                         <div class="feature-icon  bg-gradient">
-
-                            <img src="./assets/icons/nodejs.png" width="0" alt='not found'>
-                        </div>
-                        <h2>Node js</h2>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="25"
-                                aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <!-- Node js -->
-
-                    <div class="feature col">
-                        <div class="feature-icon  bg-gradient">
-
                             <img src="./assets/icons/Bootstrap_logo.svg.png" width="50" alt='not found'>
                         </div>
                         <h2>Bootstrap</h2>
@@ -122,7 +124,6 @@
                     </div>
                     <div class="feature col">
                         <div class="feature-icon  bg-gradient">
-
                             <img src="./assets/icons/communityIcon_dhjr6guc03x51.png" width="50" alt='not found'>
                         </div>
                         <h2>My SQL</h2>
@@ -131,10 +132,8 @@
                                 aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
-
                     <div class="feature col">
                         <div class="feature-icon  bg-gradient">
-
                             <img src="./assets/icons/images.png" width="50" alt='not found'>
                         </div>
                         <h2>Mongo Db</h2>
@@ -143,59 +142,255 @@
                                 aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
+                    <!--  -->
                 </div>
-            </div>
-            <div class="b-example-divider"></div>
-            <div class="container px-4 py-5" id="featured-3">
-                <a name="frameworks" id="frameworks"></a>
-                <h2 class="pb-2 border-bottom">Frame Works</h2>
-
-                <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-                    <div class="feature col">
-                        <div class="feature-icon  bg-gradient">
-
-                            <img src="./assets/icons/nest.jpg.png" width="50" alt='not found'>
-
+                <div class="container px-4 py-5" id="featured-3">
+                    <h2 class="pb-2 ">Frame Works:</h2>
+                    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                        <div class="feature col">
+                            <div class="feature-icon  bg-gradient">
+                                <img src="./assets/icons/nest.jpg.png" width="50" alt='not found'>
+                            </div>
+                            <h2>Nest Js</h2>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="25"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
                         </div>
-                        <h2>Nest Js</h2>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="25"
-                                aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="feature col">
+                            <div class="feature-icon  bg-gradient">
+                                <img src="./assets//icons//Expressjs.png" height="50" width="150" alt='not found'>
+                            </div>
+                            <h2>Express</h2>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="25"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="b-example-divider"></div>
+            <!-- Projects -->
+            <div class="container px-4 py-5" id="featured-3">
+                <a name="projects" id="projects"></a>
+                <h2 class="pb-2 border-bottom">Projects</h2>
+                <div class="row align-items-md-stretch p-2">
+                    <div class="col-md-4 p-1">
+                        <div class="shadow-lg h-100 p-5 bg-light rounded-3">
+                            <h4>Call My Ambulance</h4>
+                            <p>Tech Stack: Bootstrap, Node.js , MySQL and EJS </p>
+                            <p>Frame Work: Express JS </p>
+                            <p>Domain: Health</p>
+                            <p>Tenure : May-2022 To Aug -2022</p>
+                            <!--  -->
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-dark" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Click Here To Know More
+                            </button>
+                            <!--  -->
+                            <!--  modal-->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Call My Ambulance</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>
+
+                                                <b>Description </b>: This Call My Ambulance App helps a Hospital manage
+                                                its
+                                                Ambulance services.It will reduce irregularities in ambulance
+                                                services such as
+                                            <ul>
+                                                <li>Fake driver registrations.</li>
+                                                <li> Not having alert
+                                                    police.</li>
+                                                <li>Ambulance Drivers Charging Extra Fare </li>
+                                                <li>Call my ambulance acquires facilities as like reliable for patients
+                                                    in
+                                                    booking an ambulance. So, it avoids and
+                                                    Ensures early booking of an ambulance.</li>
+                                            </ul>
+                                            <p><b> Further Improvements</b>: About to add google maps so that it helps
+                                                the
+                                                customer/patients to track the ambulance where its coming.</p>
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn">
+                                                <b> Click the Git Icon To see the Code </b><a
+                                                    href="https://github.com/SwaroopLightning/CallMyAmbulanceUpdated"></a><img
+                                                    src="./assets//icons/git.png" height="30" width="30"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--  modal-->
+
+                        </div>
+                    </div>
+                    <!-- Project-2 -->
+                    <div class="col-md-4 p-1">
+                        <div class="shadow-lg h-100 p-5 bg-light rounded-3">
+                            <h4>Dairy Milk Distributor API</h4>
+                            <p>Tech Stack: Node.js , MySQL and Swagger UI</p>
+                            <p>Hackathon: Hacker Earth Kore.ai Node Js Developer Competition.
+                            <p>Frame Work: Express JS </p>
+                            <p>Tenure : Aug -2022</p>
+                            <!--  -->
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-dark" data-bs-toggle="modal"
+                                data-bs-target="#project2">
+                                Click Here To Know More
+                            </button>
+                            <!--  -->
+                            <!--  modal-->
+                            <div class="modal fade" id="project2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Dairy Milk Distributor
+                                                API</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>
+
+                                                <b>Description </b>: This Back-End App helps a Dairy to distribute their
+                                                daily orders, with some modifications, this app can help in Material
+                                                Management / Stock Management for a company. I provided Documentation
+                                                using the Swagger Documentation tool, where you can test the API
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn">
+                                                <b> Click the Git Icon To see the Code </b><a
+                                                    href="https://github.com/SwaroopLightning/DairyMIlk"><img
+                                                        src="./assets//icons/git.png" height="30"
+                                                        width="30"></a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--  modal-->
+
+                        </div>
+                    </div>
+                    <div class="col-md-4 p-1">
+                        <div class="shadow-lg h-100 p-5 bg-light rounded-3">
+                            <h4>Campuss Mall</h4>
+                            <p>Tech Stack: Node.js , MongoDB and Open API Swagger </p>
+                            <p>Frame Work: Nest JS </p>
+                            <p>Domain: E-commerce</p>
+                            <p>Tenure : May-2022 To Aug -2022</p>
+                            <!--  -->
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-dark" data-bs-toggle="modal"
+                                data-bs-target="#project3">
+                                Click Here To Know More
+                            </button>
+                            <!--  -->
+                            <!--  modal-->
+                            <div class="modal fade" id="project3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Campuss Mall</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>
+
+                                                <b>Description </b>: This is an Stationary app For college Students.
+                                                Where they can order Books , Pens , Scienctific calculators ...etc
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="buttoon"><a class="nav-link"
+                                                    href="https://swarooplightning.github.io/Campuss-Mall/documentation/classes/ItemDTO.html"><b>
+                                                        Click here for Documentation </b></a></button>
+                                            <button type="button" class="btn">
+                                                <b> Click the Git Icon To see the Code </b><a
+                                                    href="https://github.com/SwaroopLightning/Campuss-Mall"><img
+                                                        src="./assets//icons/git.png" height="30"
+                                                        width="30"></a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--  modal-->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="b-example-divider"></div>
+            <!--  -->
+            <a name="experience" id="experience"></a>
+            <div class="container px-4 py-5" id="icon-grid">
+                <h2 class="pb-2 border-bottom">Experience</h2>
+                <section class="py-5">
+                    <ul class="timeline">
+                        <li class="timeline-item mb-5">
+                            <h5 class="fw-bold">Part-Time At Blockatena</h5>
+                            <p class=" mb-2 fw-bold">From 29 Aug 2022 To till date</p>
+                            <p class="">
+                                This is a NFT Market Place like Open Sea ,here my role is Back-End Architech ,
+                            <ul>
+                                <li>I designed Schemas and Guards </li>
+                                <li>Open API Documentation</li>
+                                <li>Created Logic for Market-Place</li>
+                                <li> Created Cron jobs for Auction</li>
+                            </ul>
+                            Note: Initially I faced Problems with dist , now i am expert in solving it.
+                            </p>
+                        </li>
+                        <li class="timeline-item mb-5">
+                            <h5 class="fw-bold">Intern At Relevel As a Backend Developer</h5>
+                            <p class=" mb-2 fw-bold">From 31 Jan 2022 to October 2022 </p>
+                            <p class="">
+                                Here I Started My journey as a Backend Developer,With great inputs by various mentors
+                                like Viswa Sir ,I made three projects on my own.
+                                I also understand the importance of reading documentation , thats why I done a Project
+                                on Nest Js on my own , Which eventually got my First Oppurtunity.
+                            </p>
+                            <button> <a class="nav-link"
+                                    href="https://drive.google.com/file/d/1-hcyrOwrT5M17BSUfuVnuEWM_nNCwwx5/view"
+                                    target="_blank">Certificate Link</a></button>
+                        </li>
+                    </ul>
+                </section>
+            </div>
 
 
+            <!--  -->
+            <div class="b-example-divider"></div>
 
 
-                <div class="b-example-divider"></div>
-
-
-
-
-
-                <img src="./assets/certificates/nodejs.png" style="max-width: 300px;" class="rounded mx-auto"
-                    alt="node js">
-
-
-                <img src="./assets/certificates/css.png" style="max-width: 300px;" class="rounded mx-auto" alt="css">
-
-
-                <img src="./assets//certificates/java.png" style="max-width: 300px;" class="rounded mx-auto" alt="java">
-
-
-
-
-                <div class="b-example-divider"></div>
-                <a name="education" id="education"></a>
-
+            <a name="education" id="education"></a>
+            <div class="container px-4 py-5" id="icon-grid">
+                <h2 class="pb-2 border-bottom">Education</h2>
                 <section class="py-5">
                     <ul class="timeline">
                         <li class="timeline-item mb-5">
                             <h5 class="fw-bold">Graduation</h5>
                             <p class=" mb-2 fw-bold">21 Nov 2017</p>
                             <p class="">
-                                I am a <b><i>Computer Science Graduate</i></b> from G.Pulla Reddy Engineering College
+                                I am a <b><i>Computer Science Graduate</i></b> from G.Pulla Reddy Engineering
+                                College
                                 Kurnool with 6.24 CGPA
                             </p>
                         </li>
@@ -204,7 +399,8 @@
                             <h5 class="fw-bold">Intermediate</h5>
                             <p class=" mb-2 fw-bold">15 May 2013</p>
                             <p class="">
-                                I completed my Intermediate in M.P.C (Maths Physics Chemistry) Background from Sri
+                                I completed my Intermediate in M.P.C (Maths Physics Chemistry) Background from
+                                Sri
                                 Chaitanya Bharathi Junior College Tirupati with 94.2 %
                             </p>
                         </li>
@@ -213,99 +409,43 @@
                             <h5 class="fw-bold">SSC</h5>
                             <p class=" mb-2 fw-bold">15 May 2011</p>
                             <p class="">
-                                I completed my school from Silver Bells English Medium High School Railway Kodur with
+                                I completed my school from Silver Bells English Medium High School Railway Kodur
+                                with
                                 67%.
                             </p>
                         </li>
                     </ul>
                 </section>
-                <!-- <div class="container px-4 py-5" id="icon-grid">
-                    <h2 class="pb-2 border-bottom">Education</h2>
-                    <table class="table table-bordered">
-                        <thead>
-                            <tr>
-                                <th scope="col">School</th>
-                                <th scope="col">Year </th>
-                                <th scope="col">CGPA/Percentage</th>
-                            </tr>
-                        </thead>
-                        <tbody class="table-group-divider">
-                            <tr>
-                                <td>Computer Science Engineering</td>
-                                <td>2017</td>
-                                <td>6.24</td>
-
-                            </tr>
-                            <tr>
-                                <td>Intermediate</td>
-                                <td>2013</td>
-                                <td>94.2 %</td>
-
-                            </tr>
-                            <tr>
-                                <td>SSC</td>
-                                <td>2011</td>
-                                <td>67 %</td>
-
-                            </tr>
-                        </tbody>
-                    </table>
-
-                </div> -->
-        </main>
-        <div class="container col-xl-10 col-xxl-8 px-4 py-5">
-
-            <h2 class="pb-2 border-bottom"><a name="contact" id="contact">Contact</a></h2>
-            <div class="row align-items-center g-lg-5 py-5">
-                <div class="col-lg-7 text-center text-lg-start">
-                    <h1 class="display-4 fw-bold lh-1 mb-3">I am Available in </h1>
-                    <div class="row">
-                        <div class="col">
-                            <a href="https://wa.me/918096843678"><img class=" rounded-circle d-block mx-auto mb-4 p-4"
-                                    src="./assets/icons/whatsapp.jpg" alt="" width="160" height="160"></a>
-                        </div>
-                        <div class="col">
-                            <a href="mailto:sathyaswaroopvandavasi@gmail.com"><img class="d-block mx-auto mb-4 p-4"
-                                    src="./assets/icons/gmail.png" alt="not found" width="200" height="160"></a>
-                        </div>
-                        <div class="col">
-                            <a href="tel:+91 8096843678"><img class="d-block mx-auto mb-4 p-4"
-                                    src="./assets/icons/phone.png" alt="" width="160" height="160"></a>
-                        </div>
-
-                    </div>
-                    <p class="col-lg-10 fs-4"></p>
-                </div>
-
             </div>
+
+    </main>
+    <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+
+        <h2 class="pb-2 border-bottom"><a name="contact" id="contact">Contact</a></h2>
+        <div class="row align-items-center g-lg-5 py-5">
+            <div class="col-lg-7 text-center text-lg-start">
+                <h1 class="display-4 fw-bold lh-1 mb-3">I am Available in </h1>
+                <div class="row">
+                    <div class="col">
+                        <a href="https://wa.me/918096843678"><img class=" rounded-circle d-block mx-auto mb-4 p-4"
+                                src="./assets/icons/whatsapp.jpg" alt="" width="160" height="160"></a>
+                    </div>
+                    <div class="col">
+                        <a href="mailto:sathyaswaroopvandavasi@gmail.com"><img class="d-block mx-auto mb-4 p-4"
+                                src="./assets/icons/gmail.png" alt="not found" width="200" height="160"></a>
+                    </div>
+                    <div class="col">
+                        <a href="tel:+91 8096843678"><img class="d-block mx-auto mb-4 p-4"
+                                src="./assets/icons/phone.png" alt="" width="160" height="160"></a>
+                    </div>
+
+                </div>
+                <p class="col-lg-10 fs-4"></p>
+            </div>
+
         </div>
     </div>
-
-
-
-
-    <!-- <div class="fixed-top p-2 justify-content-center mx-auto shadow-lg rounded"
-        style="max-width: 500px;background-color: rgb(33, 42, 60); color:aliceblue">
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-                <a class="nav-link link-light " href="#">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link link-light" href="#education">Education</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link link-light" href="#achievements">Achievements</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link link-light" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link link-light" href="#contact">Contact</a>
-            </li>
-        </ul>
-    </div> -->
-
-
+    </div>
     <!-- Footer -->
 
     <footer class="my-5 pt-5 text-muted text-center text-small">
